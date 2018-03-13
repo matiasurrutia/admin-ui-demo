@@ -8,6 +8,7 @@ import Aside from '../../components/Aside/';
 import Footer from '../../components/Footer/';
 
 import Dashboard from '../../views/Dashboard/';
+import Shipments from '../../views/Shipments/';
 
 class Full extends Component {
   render() {
@@ -21,6 +22,7 @@ class Full extends Component {
             <Container fluid>
               <Switch>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
+                <Route path="/shipments" name="Shipments" component={Shipments}/>
                 <Redirect from="/" to="/dashboard"/>
               </Switch>
             </Container>

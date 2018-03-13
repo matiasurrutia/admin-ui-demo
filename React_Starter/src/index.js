@@ -21,6 +21,7 @@ ReactDOM.render((
   <HashRouter>
     <Switch>
       <Route path="/" name="Home" component={Full}/>
+      <Route path="/shipments" name="Shipments" component={Full}/>
     </Switch>
   </HashRouter>
 ), document.getElementById('root'));

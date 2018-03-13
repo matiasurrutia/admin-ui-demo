@@ -8,6 +8,11 @@ export default {
         variant: 'info',
         text: 'NEW'
       }
+    },
+    {
+      name: 'Shipments',
+      url: '/shipments',
+      icon: 'icon-star'
     }
   ]
 };
